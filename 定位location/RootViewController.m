@@ -61,6 +61,10 @@
     [self.view addSubview:dresslabel];
     
     self.title = @"当前位置";
+    
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(10, 100, 300, 100)];
+    [self.view addSubview:label];
+    [label release];
 
     
 }
